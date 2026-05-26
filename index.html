@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>传统制茶技艺 - 非物质文化遗产</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- 自定义样式 -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- 导航栏（Bootstrap组件1） -->
+<nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#home">制茶非遗</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="#home">首页</a></li>
+        <li class="nav-item"><a class="nav-link" href="#show">作品展示</a></li>
+        <li class="nav-item"><a class="nav-link" href="#master">传承人</a></li>
+        <li class="nav-item"><a class="nav-link" href="#craft">工艺科普</a></li>
+        <li class="nav-item"><a class="nav-link" href="#message">留言区</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- 首页轮播图（Bootstrap组件2） -->
+<section id="home" class="pt-5">
+  <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://picsum.photos/id/225/1920/700" class="d-block w-100" alt="制茶场景">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>传统制茶技艺 · 国家级非物质文化遗产</h2>
+          <p>一叶成茗，千年传承</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://picsum.photos/id/430/1920/700" class="d-block w-100" alt="茶叶">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>匠心制茶 传承百年</h3>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+</section>
+
+<!-- 作品展示（Bootstrap卡片 组件3） -->
+<section id="show" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5">非遗作品展示</h2>
+    <div class="row g-4">
+      <div class="col-lg-4 col-md-6">
+        <div class="card h-100 tea-card">
+          <img src="https://picsum.photos/id/431/600/400" class="card-img-top" alt="武夷岩茶">
+          <div class="card-body text-center">
+            <h5 class="card-title">武夷岩茶</h5>
+            <p class="card-text">传统炭焙工艺，香气馥郁</p>
+            <button class="btn btn-primary view-img">查看大图</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card h-100 tea-card">
+          <img src="https://picsum.photos/id/433/600/400" class="card-img-top" alt="铁观音">
+          <div class="card-body text-center">
+            <h5 class="card-title">安溪铁观音</h5>
+            <p class="card-text">手工摇青，兰香悠长</p>
+            <button class="btn btn-primary view-img">查看大图</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card h-100 tea-card">
+          <img src="https://picsum.photos/id/442/600/400" class="card-img-top" alt="正山小种">
+          <div class="card-body text-center">
+            <h5 class="card-title">正山小种</h5>
+            <p class="card-text">松烟香，桂圆味，世界最早红茶</p>
+            <button class="btn btn-primary view-img">查看大图</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 传承人故事 -->
+<section id="master" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">非遗传承人故事</h2>
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <img src="https://picsum.photos/id/1005/600/600" class="img-fluid rounded-circle" alt="传承人">
+      </div>
+      <div class="col-md-6 mt-4 mt-md-0">
+        <h3>李大师 · 国家级制茶传承人</h3>
+        <p class="lead">从事制茶工艺60年，坚守传统手工制作，不使用机械化设备，坚持“看天做茶、看茶做茶”的古法理念。</p>
+        <p>多次获得国家级非遗技艺大奖，致力于培养年轻一代传承人，让传统制茶技艺永续传承。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 工艺科普 -->
+<section id="craft" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5">传统制茶工艺科普</h2>
+    <div class="row text-center">
+      <div class="col-6 col-md-2 mb-3">
+        <h5>采青</h5>
+      </div>
+      <div class="col-6 col-md-2 mb-3">
+        <h5>萎凋</h5>
+      </div>
+      <div class="col-6 col-md-2 mb-3">
+        <h5>摇青</h5>
+      </div>
+      <div class="col-6 col-md-2 mb-3">
+        <h5>杀青</h5>
+      </div>
+      <div class="col-6 col-md-2 mb-3">
+        <h5>揉捻</h5>
+      </div>
+      <div class="col-6 col-md-2 mb-3">
+        <h5>烘焙</h5>
+      </div>
+    </div>
+    <p class="text-center mt-4">传统制茶全程手工完成，每一道工序都凝聚着传承人数百年的经验与智慧。</p>
+  </div>
+</section>
+
+<!-- 互动留言区 -->
+<section id="message" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">互动留言区</h2>
+    <form id="msgForm" class="mb-5">
+      <div class="mb-3">
+        <input type="text" id="name" class="form-control" placeholder="请输入你的姓名" required>
+      </div>
+      <div class="mb-3">
+        <textarea id="content" class="form-control" rows="3" placeholder="分享你对非遗制茶的感受..." required></textarea>
+      </div>
+      <button type="submit" class="btn btn-success">提交留言</button>
+    </form>
+    <div id="msgList">
+      <h4 class="mb-3">留言列表</h4>
+      <div id="msgContainer"></div>
+    </div>
+  </div>
+</section>
+
+<!-- 图片放大模态框（Bootstrap组件4） -->
+<div class="modal fade" id="imgModal" tabindex="-1">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-body text-center">
+        <img src="" id="modalImg" class="w-100">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 底部 -->
+<footer class="bg-dark text-white text-center py-3">
+  <p>传统制茶技艺 · 非物质文化遗产传承网站 &copy; 2025</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- 自定义JS -->
+<script src="js/script.js"></script>
+</body>
+</html>

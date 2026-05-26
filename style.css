@@ -1,0 +1,30 @@
+/* 全局样式 */
+html {
+  scroll-behavior: smooth;
+}
+section {
+  scroll-margin-top: 70px;
+}
+
+/* 导航栏滚动效果 */
+.navbar-scrolled {
+  background-color: rgba(0, 0, 0, 0.85) !important;
+  transition: 0.3s;
+}
+
+/* 制茶卡片hover效果 */
+.tea-card {
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+.tea-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+}
+
+/* 留言样式 */
+.msg-item {
+  border-left: 4px solid #198754;
+  padding-left: 15px;
+  margin-bottom: 15px;
+}
